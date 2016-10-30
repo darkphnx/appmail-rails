@@ -23,7 +23,7 @@ module AppMail
       private
 
       def client
-        @client ||= AppMail::Client.new(@settings[:host] || "api.appmail.io", @settings[:server_key])
+        @client ||= AppMail::Client.new(@settings[:host] || "api.appmail.io", @settings[:server_key] || ENV['APPMAIL_KEY'])
       end
 
     end
