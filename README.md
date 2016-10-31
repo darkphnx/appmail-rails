@@ -7,7 +7,7 @@ AppMail for Rails allows you to integrate AppMail directly into Action Mailer in
 Add the `appmail` gem to your Gemfile and run `bundle install` to install it.
 
 ```ruby
-gem 'appmail', '~> 1.0'
+gem 'appmail-rails', '~> 1.0'
 ```
 
 ## Configuration
