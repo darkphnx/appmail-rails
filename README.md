@@ -15,7 +15,7 @@ gem 'appmail-rails', '~> 1.0'
 Open up your `config/environment/production.rb` or `config/environment/development.rb` and change the delivery method to `appmail`.
 
 ```ruby
-config.action_mailer.deilvery_method = :appmail
+config.action_mailer.delivery_method = :appmail
 ```
 
 You'll also need to provide your server key. If you don't have a server key, [login to our web interface](https://my.appmail.io) and generate a credential for the server you wish to send messages through.
